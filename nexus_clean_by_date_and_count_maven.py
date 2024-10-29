@@ -37,7 +37,7 @@ CONFIG_MAP = {"snapshots": (1, 3), "releases": (1, 30), "testing": (1, 14)}
 
 remain_count, remain_days = CONFIG_MAP.get(repository, (None, None))
 
-nexus_url = "https://nexus.mydomain.com/service/rest"
+nexus_url = "https://nexus.mydomain.com/service/rest" # replace this value with your nexus url
 
 # read Nexus credentials from a YAML file
 with open("credentials.yaml", "r") as stream:
