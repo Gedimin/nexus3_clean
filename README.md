@@ -6,7 +6,7 @@ This script is used to clean up maven repositories using Nexus API (https://help
 
 We can set for each repository:
 * number of days since lastDownloaded (remain_days)
-* how many artifacts leave at least (remain_count)
+* minimum number of artifacts to leave (remain_count)
 
 All components which don't fit these conditions to be deleted
 
